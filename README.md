@@ -23,6 +23,21 @@ Koop-Multiplayer-Mod für **Global Rescue**. Zwei Spieler spielen gemeinsam in e
 
 Die genauen Schritte stehen in der dem Release beiliegenden Kurzanleitung.
 
+## Mehr Wachen-Typen von Anfang an (optional)
+
+Standardmäßig startet ihr nur mit der Fachrichtung, mit der der geladene Spielstand begonnen hat. Der **Host** kann weitere Wachen-Typen von Anfang an **kostenlos** freischalten.
+
+Dazu in der Mod-Konfigurationsdatei `BepInEx/config/globalmp.spectator.cfg` im Abschnitt `[Gr27]` die Zeile `StartDepartments` setzen, z. B.:
+
+```
+StartDepartments = Rescue,Police
+```
+
+- Gültige Werte (kommagetrennt): `Police`, `Swat`, `FireDepartment`, `Rescue`.
+- Leer (Standard) = keine zusätzliche Fachrichtung.
+- Diese Einstellung macht nur der **Host**; die Freischaltung gilt für **beide** Spieler (der Shop des Clients öffnet sich, sobald der Host sie spiegelt).
+- Jede so freigeschaltete Fachrichtung erhöht zusätzlich das Basen-Limit um **+1**.
+
 ## Bekannte Einschränkungen
 
 - Beta-Stand; getestet mit zwei Spielern.
@@ -40,6 +55,8 @@ Die genauen Schritte stehen in der dem Release beiliegenden Kurzanleitung.
 **Global Rescue Multiplayer (GR-MP)** is a cooperative multiplayer mod for *Global Rescue*. Two players share one world — build together, run missions, manage the station. One player **hosts**, the other **joins** as a client; the host is authoritative for missions and money so both sides stay in sync.
 
 **Install:** download the release zip and unzip it into the game directory (where the game executable lives), then launch the game — done. **BepInEx is bundled in the zip** (5.4.23), no separate install needed. Both players must run the **exact same mod version**. Compatible with game build **24991330**.
+
+**More station types from the start (optional):** the **host** can unlock extra department types for free at session start. In `BepInEx/config/globalmp.spectator.cfg`, section `[Gr27]`, set `StartDepartments` to a comma list of `Police`, `Swat`, `FireDepartment`, `Rescue` (e.g. `StartDepartments = Rescue,Police`; empty = none). It applies to **both** players, and each unlock also raises the base limit by **+1**.
 
 **Connect:** the host starts a session in-game; the client joins and receives the host's save.
 
