@@ -1,0 +1,70 @@
+name: Bug Report
+description: Einen Fehler in GR-MP melden
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für den Bugreport. Bitte fülle die Felder möglichst vollständig aus — besonders die **Logs beider Seiten** helfen uns am meisten.
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod-Version
+      description: Welche GR-MP-Version lief? (Host und Client müssen identisch sein.)
+      placeholder: "z. B. 0.8.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: side
+    attributes:
+      label: Host oder Client?
+      description: Auf welcher Seite trat der Fehler auf?
+      options:
+        - Host
+        - Client
+        - Beide / unklar
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Was ist passiert?
+      description: Beschreibe das beobachtete Verhalten.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Was hättest du erwartet?
+    validations:
+      required: true
+  - type: input
+    id: time
+    attributes:
+      label: Uhrzeit des Vorfalls
+      description: Ungefähre Uhrzeit (mit Zeitzone), damit wir die Stelle im Log finden.
+      placeholder: "z. B. 2026-10-12 14:35 MESZ"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Nachstellen
+      description: Was habt ihr gemacht, bevor der Fehler auftrat?
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs beider Seiten
+      description: |
+        Bitte `BepInEx/LogOutput.log` von **Host UND Client** anhängen.
+        **Wichtig:** Die Datei wird bei jedem Spielstart überschrieben — vor dem Neustart sichern!
+      placeholder: "Log-Dateien hierher ziehen (Host + Client)."
+    validations:
+      required: true

@@ -1,0 +1,19 @@
+name: Feature Request
+description: Eine Idee oder Verbesserung vorschlagen
+title: "[Idee]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Vorschlag
+      description: Was soll GR-MP können? Welches Problem löst es?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Weitere Hinweise (optional)
+      description: Alternativen, Beispiele oder Kontext.
+    validations:
+      required: false
