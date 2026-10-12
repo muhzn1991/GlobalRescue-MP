@@ -3,6 +3,11 @@
 Alle nennenswerten Änderungen an Global Rescue Multiplayer (GR-MP) werden hier festgehalten.
 Neueste Version zuerst.
 
+## 0.8.5 — 2026-10-12
+
+- **Verkehrs-, Geschwindigkeits- und Alkoholkontrollen** werden jetzt zwischen Host und Mitspieler synchronisiert — beide sehen dieselben laufenden Kontrollen, und die Zähler (geprüft / Verstöße / Bußgelder) gleichen sich ab.
+- Hinweis: Protokoll-Version 9. **0.8.5 ist nicht mit 0.8.4 oder älter kompatibel** — ein älterer Mitspieler kann sich nicht verbinden, **beide müssen auf 0.8.5 aktualisieren**.
+
 ## 0.8.4 — 2026-10-12
 
 - Die Freischaltung „Einsatzgebiet vergrößern" (zusätzliche Karten-Kacheln) kommt jetzt **live beim Mitspieler** an — beide sehen dasselbe erweiterte Einsatzgebiet.
