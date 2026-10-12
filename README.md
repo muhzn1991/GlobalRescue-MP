@@ -27,7 +27,9 @@ Die genauen Schritte stehen in der dem Release beiliegenden Kurzanleitung.
 
 Standardmäßig startet ihr nur mit der Fachrichtung, mit der der geladene Spielstand begonnen hat. Der **Host** kann weitere Wachen-Typen von Anfang an **kostenlos** freischalten.
 
-Dazu in der Mod-Konfigurationsdatei `BepInEx/config/globalmp.spectator.cfg` im Abschnitt `[Gr27]` die Zeile `StartDepartments` setzen, z. B.:
+Die Konfigurationsdatei `BepInEx/config/globalmp.spectator.cfg` wird von BepInEx erst beim **ersten Spielstart mit installiertem Mod** angelegt. Also zuerst die Mod installieren, das Spiel einmal starten und wieder beenden — danach ist die Datei da und kann bearbeitet werden.
+
+Dort im Abschnitt `[Gr27]` die Zeile `StartDepartments` setzen, z. B.:
 
 ```
 StartDepartments = Rescue,Police
@@ -56,7 +58,7 @@ StartDepartments = Rescue,Police
 
 **Install:** download the release zip and unzip it into the game directory (where the game executable lives), then launch the game — done. **BepInEx is bundled in the zip** (5.4.23), no separate install needed. Both players must run the **exact same mod version**. Compatible with game build **24991330**.
 
-**More station types from the start (optional):** the **host** can unlock extra department types for free at session start. In `BepInEx/config/globalmp.spectator.cfg`, section `[Gr27]`, set `StartDepartments` to a comma list of `Police`, `Swat`, `FireDepartment`, `Rescue` (e.g. `StartDepartments = Rescue,Police`; empty = none). It applies to **both** players, and each unlock also raises the base limit by **+1**.
+**More station types from the start (optional):** the **host** can unlock extra department types for free at session start. BepInEx only writes `BepInEx/config/globalmp.spectator.cfg` on the **first launch with the mod installed**, so install the mod, start the game once and quit, then edit it: in section `[Gr27]`, set `StartDepartments` to a comma list of `Police`, `Swat`, `FireDepartment`, `Rescue` (e.g. `StartDepartments = Rescue,Police`; empty = none). It applies to **both** players, and each unlock also raises the base limit by **+1**.
 
 **Connect:** the host starts a session in-game; the client joins and receives the host's save.
 
