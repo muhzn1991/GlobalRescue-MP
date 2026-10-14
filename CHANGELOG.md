@@ -3,6 +3,13 @@
 Alle nennenswerten Änderungen an Global Rescue Multiplayer (GR-MP) werden hier festgehalten.
 Neueste Version zuerst.
 
+## 0.8.17 — 2026-10-14
+
+- **Angepasst an das aktuelle Spiel-Content-Update (Game-Build 25882902).** Diese Version benötigt das aktuelle Update von Global Rescue. Die alte Version 0.8.5 war für die vorherige Spielversion und funktioniert seit dem Content-Update **nicht mehr** — bitte auf 0.8.17 aktualisieren.
+- Seit 0.8.5 zahlreiche Stabilitäts- und Synchronisations-Verbesserungen (Bauen/Abriss, Einsätze, Crew, Kredite, Blitzer/Großeinsätze u. a.).
+- **Beta — bekannte Probleme (in Arbeit):** gelegentliche Mikroruckler im Multiplayer; gleichzeitiges Bauen auf **dieselbe Stelle** kollidiert (das Geld wird automatisch erstattet); das **Vergrößern der Basis durch den Client** wird noch nicht synchronisiert.
+- Hinweis: Protokoll-Version 10. **Beide Spieler müssen dieselbe Mod-Version (0.8.17) verwenden.**
+
 ## 0.8.5 — 2026-10-12
 
 - **Verkehrs-, Geschwindigkeits- und Alkoholkontrollen** werden jetzt zwischen Host und Mitspieler synchronisiert — beide sehen dieselben laufenden Kontrollen, und die Zähler (geprüft / Verstöße / Bußgelder) gleichen sich ab.
