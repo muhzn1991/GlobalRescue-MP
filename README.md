@@ -14,7 +14,7 @@ Koop-Multiplayer-Mod für **Global Rescue**. Zwei Spieler spielen gemeinsam in e
 
 **Beide Spieler müssen exakt dieselbe Mod-Version verwenden.** Unterschiedliche Versionen können sich nicht verbinden.
 
-**Kompatibilität:** aktuelles Spiel-Content-Update, **Game-Build 25882902** → Mod **v0.8.17**. Die ältere **v0.8.5** war für die vorherige Spielversion (Build 24991330) und funktioniert seit dem Content-Update **nicht mehr** (deprecated). Immer die neueste Version aus den [Releases](https://github.com/muhzn1991/GlobalRescue-MP/releases) verwenden.
+**Kompatibilität:** aktuelles Spiel-Content-Update, **Game-Build 25882902** → Mod **v0.8.18**. Die ältere **v0.8.5** war für die vorherige Spielversion (Build 24991330) und funktioniert seit dem Content-Update **nicht mehr** (deprecated). Immer die neueste Version aus den [Releases](https://github.com/muhzn1991/GlobalRescue-MP/releases) verwenden.
 
 ## Verbindung
 
@@ -56,7 +56,7 @@ StartDepartments = Rescue,Police
 
 **Global Rescue Multiplayer (GR-MP)** is a cooperative multiplayer mod for *Global Rescue*. Two players share one world — build together, run missions, manage the station. One player **hosts**, the other **joins** as a client; the host is authoritative for missions and money so both sides stay in sync.
 
-**Install:** download the release zip and unzip it into the game directory (where the game executable lives), then launch the game — done. **BepInEx is bundled in the zip** (5.4.23), no separate install needed. Both players must run the **exact same mod version**. Requires the **current game content update (build 25882902)** → mod **v0.8.17**; the older **v0.8.5** was for the previous game version (build 24991330) and no longer works since the content update (deprecated). Always use the latest [release](https://github.com/muhzn1991/GlobalRescue-MP/releases).
+**Install:** download the release zip and unzip it into the game directory (where the game executable lives), then launch the game — done. **BepInEx is bundled in the zip** (5.4.23), no separate install needed. Both players must run the **exact same mod version**. Requires the **current game content update (build 25882902)** → mod **v0.8.18**; the older **v0.8.5** was for the previous game version (build 24991330) and no longer works since the content update (deprecated). Always use the latest [release](https://github.com/muhzn1991/GlobalRescue-MP/releases).
 
 **More station types from the start (optional):** the **host** can unlock extra department types for free at session start. BepInEx only writes `BepInEx/config/globalmp.spectator.cfg` on the **first launch with the mod installed**, so install the mod, start the game once and quit, then edit it: in section `[Gr27]`, set `StartDepartments` to a comma list of `Police`, `Swat`, `FireDepartment`, `Rescue` (e.g. `StartDepartments = Rescue,Police`; empty = none). It applies to **both** players, and each unlock also raises the base limit by **+1**.
 
