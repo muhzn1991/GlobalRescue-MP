@@ -3,6 +3,12 @@
 Alle nennenswerten Änderungen an Global Rescue Multiplayer (GR-MP) werden hier festgehalten.
 Neueste Version zuerst.
 
+## 0.8.20 — 2026-10-14
+
+- **Leistung: flüssigeres Bauen und Umbauen von Basen beim Mitspieler.** Große Räume oder Flächen, die der Host baut, wurden beim Mitspieler bisher in einem Rutsch übernommen und verursachten kurze Standbilder. Das wird jetzt über mehrere Einzelbilder verteilt und läuft spürbar glatter. Dazu weitere interne Stabilitäts-Korrekturen.
+- **Beta — bekannte Probleme (in Arbeit):** gleichzeitiges Bauen auf **dieselbe Stelle** kollidiert (das Geld wird automatisch erstattet); das **Vergrößern der Basis durch den Client** wird noch nicht synchronisiert.
+- Benötigt weiterhin das aktuelle Spiel-Content-Update (Game-Build 25882902). Protokoll-Version 10 — **beide Spieler müssen dieselbe Mod-Version (0.8.20) verwenden.**
+
 ## 0.8.19 — 2026-10-14
 
 - **Großeinsätze (R73): bessere Darstellung beim Mitspieler.** Bei den **Absperrungen** eines Großeinsatzes erscheinen die roten Markierungen „wo absperren“ jetzt schon **während der Planung**, und das **Absperr-Fahrzeug fährt beim Mitspieler sichtbar zur Sperrstelle**, statt in der Basis zu stehen. Zusätzlich sind **Ruckler in der Endphase** eines Großeinsatzes beim Mitspieler behoben.
