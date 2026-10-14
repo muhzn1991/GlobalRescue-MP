@@ -3,6 +3,12 @@
 Alle nennenswerten Änderungen an Global Rescue Multiplayer (GR-MP) werden hier festgehalten.
 Neueste Version zuerst.
 
+## 0.8.19 — 2026-10-14
+
+- **Großeinsätze (R73): bessere Darstellung beim Mitspieler.** Bei den **Absperrungen** eines Großeinsatzes erscheinen die roten Markierungen „wo absperren“ jetzt schon **während der Planung**, und das **Absperr-Fahrzeug fährt beim Mitspieler sichtbar zur Sperrstelle**, statt in der Basis zu stehen. Zusätzlich sind **Ruckler in der Endphase** eines Großeinsatzes beim Mitspieler behoben.
+- **Basis: Löschen und Straßen-Anbindung werden synchronisiert.** Das **Löschen einer Basis** wird jetzt zum Mitspieler übertragen, und die **Straße einer neu gegründeten Basis** erscheint wieder auf beiden Seiten.
+- Benötigt weiterhin das aktuelle Spiel-Content-Update (Game-Build 25882902). Protokoll-Version 10 — **beide Spieler müssen dieselbe Mod-Version (0.8.19) verwenden.**
+
 ## 0.8.18 — 2026-10-14
 
 - **Leistungs-Hotfix (R72):** Beim Anklicken von Fahrzeugen entstand ein Schwall an Besatzungs-Updates, der den Host kurz einfrieren ließ und beim Mitspieler sekündliche Ruckler verursachte. Das ist behoben — Besatzungs-Änderungen werden gebündelt und sparsamer übertragen.
