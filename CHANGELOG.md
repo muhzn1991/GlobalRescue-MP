@@ -3,6 +3,12 @@
 Alle nennenswerten Änderungen an Global Rescue Multiplayer (GR-MP) werden hier festgehalten.
 Neueste Version zuerst.
 
+## 0.8.18 — 2026-10-14
+
+- **Leistungs-Hotfix (R72):** Beim Anklicken von Fahrzeugen entstand ein Schwall an Besatzungs-Updates, der den Host kurz einfrieren ließ und beim Mitspieler sekündliche Ruckler verursachte. Das ist behoben — Besatzungs-Änderungen werden gebündelt und sparsamer übertragen.
+- Hinweis: Besatzungs-Änderungen (zuweisen/freigeben) erscheinen beim Mitspieler jetzt bis **~1,5 s verzögert** (bewusst, gegen den Update-Schwall).
+- Benötigt weiterhin das aktuelle Spiel-Content-Update (Game-Build 25882902). Protokoll-Version 10 — **beide Spieler müssen dieselbe Mod-Version (0.8.18) verwenden.**
+
 ## 0.8.17 — 2026-10-14
 
 - **Angepasst an das aktuelle Spiel-Content-Update (Game-Build 25882902).** Diese Version benötigt das aktuelle Update von Global Rescue. Die alte Version 0.8.5 war für die vorherige Spielversion und funktioniert seit dem Content-Update **nicht mehr** — bitte auf 0.8.17 aktualisieren.
