@@ -3,6 +3,16 @@
 Alle nennenswerten Änderungen an Global Rescue Multiplayer (GR-MP) werden hier festgehalten.
 Neueste Version zuerst.
 
+## 0.8.27 — 2026-10-19
+
+- **Update-Pflicht nach dem Spiel-Update vom 16.10.: bitte beide Spieler auf 0.8.27 aktualisieren.** Das Spiel-Update (Build 25930144) hat interne Namen geändert, auf die die Mod angewiesen ist. Ältere Mod-Versionen (bis 0.8.26) laufen darauf nur eingeschränkt — u. a. kann der Mitspieler keine Fahrzeuge zu Einsätzen alarmieren. 0.8.27 behebt das.
+- **Mitspieler kann wieder Einsätze fahren.** Fahrzeuge des Mitspielers lassen sich wieder zu Einsätzen alarmieren.
+- **Forschung funktioniert wieder korrekt.** Durch Forschung freigeschaltete Fahrzeuge kommen beim Mitspieler an; Forschung kaufen bleibt wie bisher Sache des Hosts.
+- **Verkehrskontrollen wieder korrekt.** Kontrollen, Verstöße und Bußgelder werden wieder nur beim Host gezählt (keine doppelte Wertung).
+- **Weitere Korrekturen für den neuen Spiel-Build:** Abteilungen, Fahrzeugkauf, Abriss-Erstattung und Parkplatz-Zuweisung beim Mitspieler. Außerdem läuft das Übernehmen großer Bauten des Mitspielers noch etwas flüssiger.
+- **Beta — bekannte Probleme (in Arbeit):** gleichzeitiges Bauen auf **dieselbe Stelle** kollidiert (das Geld wird automatisch erstattet); das **Vergrößern der Basis durch den Client** wird noch nicht synchronisiert.
+- Benötigt das aktuelle Spiel-Update (**Game-Build 25930144**). Protokoll-Version 10 — **beide Spieler müssen dieselbe Mod-Version (0.8.27) verwenden.**
+
 ## 0.8.26 — 2026-10-19
 
 - **0.8.25-Mitspieler: bitte unbedingt auf 0.8.26 aktualisieren.** Ein Mitspieler, der auf 0.8.25 bleibt, behält bei sich lokal eigene „Phantom-Absperrungen", die beim Host gar nicht existieren. Erst das Update auf **0.8.26** entfernt diese. Am besten fahren wie immer **beide Spieler dieselbe Version**.
