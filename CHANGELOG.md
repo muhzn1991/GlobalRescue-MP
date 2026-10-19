@@ -3,6 +3,14 @@
 Alle nennenswerten Änderungen an Global Rescue Multiplayer (GR-MP) werden hier festgehalten.
 Neueste Version zuerst.
 
+## 0.8.26 — 2026-10-19
+
+- **0.8.25-Mitspieler: bitte unbedingt auf 0.8.26 aktualisieren.** Ein Mitspieler, der auf 0.8.25 bleibt, behält bei sich lokal eigene „Phantom-Absperrungen", die beim Host gar nicht existieren. Erst das Update auf **0.8.26** entfernt diese. Am besten fahren wie immer **beide Spieler dieselbe Version**.
+- **Großeinsatz-Absperrungen sind wieder nur beim Host.** Straßensperrungen bei einem Großeinsatz plant jetzt wieder **nur der Host**; der Knopf „Straßensperrung planen" ist beim Mitspieler nicht mehr vorhanden. Die vom Host gesetzten Absperrungen (Pfosten/Band) sieht der Mitspieler weiterhin ganz normal.
+- **Einheiten fahren nach dem Schichtende eines Großeinsatzes wieder heim.** Nach dem Ende eines Großeinsatzes (z. B. Stadtfest) kehren die Fahrzeuge des Mitspielers jetzt wieder zur Wache zurück, statt an der Einsatzstelle stehen zu bleiben.
+- **Beta — bekannte Probleme (in Arbeit):** gleichzeitiges Bauen auf **dieselbe Stelle** kollidiert (das Geld wird automatisch erstattet); das **Vergrößern der Basis durch den Client** wird noch nicht synchronisiert.
+- Benötigt weiterhin das aktuelle Spiel-Content-Update (Game-Build 25882902). Protokoll-Version 10 — **beide Spieler müssen dieselbe Mod-Version (0.8.26) verwenden.**
+
 ## 0.8.25 — 2026-10-19
 
 - **Fahrzeug-Besatzung wird beim Mitspieler wieder stabil angezeigt.** Welche Mitarbeiter einem Fahrzeug zugeteilt sind, zeigt der Mitspieler jetzt wieder direkt und zuverlässig an (wie in früheren Versionen). Dazu weitere interne Stabilitäts-Korrekturen.
