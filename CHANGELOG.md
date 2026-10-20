@@ -3,6 +3,18 @@
 Alle nennenswerten Änderungen an Global Rescue Multiplayer (GR-MP) werden hier festgehalten.
 Neueste Version zuerst.
 
+## 0.8.29 — 2026-10-20
+
+Diese Version fasst die interne 0.8.28 und 0.8.29 zusammen.
+
+- **Der Mitspieler kann seine eigene Basis vergrößern.** Vergrößert der Client seine Basis, passiert das jetzt auch beim Host; die Kosten bucht wie üblich der Host von der gemeinsamen Kasse. Kostet die Erweiterung im Spiel nichts (z. B. bei manchen Vorlage- oder Spielstand-Basen), ist sie auch im Mehrspieler kostenlos. Das Vergrößern durch den Host kommt wie bisher beim Mitspieler an.
+- **Bekannte Einschränkung: Basis verkleinern ist im Mehrspieler vorerst gesperrt (für beide Spieler).** Nur das Vergrößern wird bisher synchronisiert; ein Verkleinern wird mit einem Hinweis abgelehnt.
+- **Automatischer Abgleich während der Sitzung.** Laufen Fahrzeuge oder Einsätze zwischen Host und Mitspieler auseinander, gleicht die Mod das jetzt selbstständig wieder an. Abweichungen bei Gebäuden werden vorerst nur erkannt und im Log vermerkt, noch nicht automatisch repariert.
+- **Flüssiger:** Wenn der Mitspieler seine Basis vergrößert oder eine neue gründet, gibt es beim Host keinen kurzen Hänger mehr.
+- **Bessere Fehlerberichte:** Das Log nennt bei Einsätzen und Aufgaben jetzt deren Namen — das hilft uns, gemeldete Probleme schneller zu finden.
+- **Beta — bekannte Probleme (in Arbeit):** gleichzeitiges Bauen auf **dieselbe Stelle** kollidiert (das Geld wird automatisch erstattet); Basis **verkleinern** ist im Mehrspieler gesperrt (siehe oben).
+- Benötigt das aktuelle Spiel-Update (**Game-Build 25930144**). Protokoll-Version 10 — **beide Spieler müssen dieselbe Mod-Version (0.8.29) verwenden**; mit einer älteren Version beim Mitspieler kommt das Vergrößern der Basis nicht an.
+
 ## 0.8.27 — 2026-10-19
 
 - **Update-Pflicht nach dem Spiel-Update vom 16.10.: bitte beide Spieler auf 0.8.27 aktualisieren.** Das Spiel-Update (Build 25930144) hat interne Namen geändert, auf die die Mod angewiesen ist. Ältere Mod-Versionen (bis 0.8.26) laufen darauf nur eingeschränkt — u. a. kann der Mitspieler keine Fahrzeuge zu Einsätzen alarmieren. 0.8.27 behebt das.
