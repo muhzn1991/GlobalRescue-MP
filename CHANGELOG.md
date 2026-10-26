@@ -3,6 +3,14 @@
 Alle nennenswerten Änderungen an Global Rescue Multiplayer (GR-MP) werden hier festgehalten.
 Neueste Version zuerst.
 
+## 0.8.30 — 2026-10-26
+
+- **Keine „Geister-Insassen" mehr.** Bringt ein Fahrzeug des Mitspielers Patienten oder Festgenommene ab, zeigt es danach auf beiden Seiten wieder die richtige Insassen-Zahl an (bisher blieb beim Mitspieler manchmal ein Insasse stehen).
+- **Erledigte Aufgaben bleiben erledigt.** Der automatische Abgleich setzt beim Mitspieler abgeschlossene Aufgaben eines Einsatzes nicht mehr fälschlich auf „aktiv" zurück.
+- **Automatischer Abgleich auch bei Zusatzaufgaben und Großereignissen.** Während einer Zusatzaufgabe oder eines Großereignisses (z. B. Kirmes) liefen Host und Mitspieler beim Einsatz-Abgleich bisher dauerhaft auseinander. Jetzt vergleichen beide dieselben Einsätze, der Abgleich kommt zur Ruhe.
+- **Beta — bekannte Probleme (in Arbeit):** gleichzeitiges Bauen auf **dieselbe Stelle** kollidiert (das Geld wird automatisch erstattet); Basis **verkleinern** ist im Mehrspieler gesperrt.
+- Benötigt das aktuelle Spiel-Update (**Game-Build 25930144**). Protokoll-Version 10 — **beide Spieler müssen dieselbe Mod-Version (0.8.30) verwenden.**
+
 ## 0.8.29 — 2026-10-20
 
 Diese Version fasst die interne 0.8.28 und 0.8.29 zusammen.
