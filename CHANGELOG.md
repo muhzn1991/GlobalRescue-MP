@@ -3,6 +3,15 @@
 Alle nennenswerten Änderungen an Global Rescue Multiplayer (GR-MP) werden hier festgehalten.
 Neueste Version zuerst.
 
+## 0.8.32 — 2026-10-26
+
+Diese Version fasst die internen 0.8.31 und 0.8.32 zusammen (0.8.32 ist der Versions-Bump für den Update-Test). Die 0.8.30-Fixes sind weiterhin enthalten.
+
+- **Auto-Update:** Die Mod prüft beim Start einmal, ob eine neuere Version veröffentlicht ist, und zeigt im Hauptmenü einen Hinweis. Mit **Jetzt aktualisieren** wird das Release geladen, per SHA-256 geprüft und installiert; danach das Spiel über **Spiel beenden** schließen und normal neu starten. Ändert ein Release BepInEx selbst, bittet der Hinweis um ein manuelles Update.
+- **Deine Mitspieler bleiben synchron (0.8.30):** keine „Geister-Insassen" mehr; erledigte Aufgaben bleiben erledigt; der automatische Abgleich beruhigt sich auch bei Zusatzaufgaben und Großereignissen.
+- **Beta — bekannte Probleme (in Arbeit):** gleichzeitiges Bauen auf **dieselbe Stelle** kollidiert (das Geld wird automatisch erstattet); Basis **verkleinern** ist im Mehrspieler gesperrt.
+- Benötigt das aktuelle Spiel-Update (**Game-Build 25930144**). Protokoll-Version 10 — **beide Spieler müssen dieselbe Mod-Version (0.8.32) verwenden.**
+
 ## 0.8.30 — 2026-10-26
 
 - **Keine „Geister-Insassen" mehr.** Bringt ein Fahrzeug des Mitspielers Patienten oder Festgenommene ab, zeigt es danach auf beiden Seiten wieder die richtige Insassen-Zahl an (bisher blieb beim Mitspieler manchmal ein Insasse stehen).
